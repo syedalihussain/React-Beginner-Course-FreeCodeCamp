@@ -1,14 +1,16 @@
 // ReactDOM.render(<ul><li>Item 1</li><li>Item 2</li></ul>, document.getElementById('root'));
 
-const navbar = (
-    <nav>
-        <h1>Bob's bistro</h1>
-        <ul>
-            <li>Menu</li>
-            <li>Contact Us</li>
-            <li>About</li>
-        </ul>
-    </nav>
-)
+function Page () {
+    return (
+        <div>
+            <h1>Reason's why I love react</h1>
+            <ol>
+                <li>It is more popular than Angular</li>
+                <li>It teaches so much about frontend</li>
+                <li>It is pays well</li>
+            </ol>
+        </div>
+    )
+}
 
-ReactDOM.render(navbar, document.getElementById('root'));
+ReactDOM.render(<Page />, document.getElementById('root'))
