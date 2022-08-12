@@ -1,3 +1,13 @@
 * {
   box-sizing: border-box;
 }
+
+.main {
+  background-color: dimgray;
+  align-content: center;
+  
+}
+
+.info--profile_picture {
+  width: 200px;
+}
